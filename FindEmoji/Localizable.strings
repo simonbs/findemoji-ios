@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  FindEmoji
+
+  Created by Simon Støvring on 20/08/2015.
+  Copyright © 2015 SimonBS. All rights reserved.
+*/
+
+"WELCOME" = "The Smileyordning is boring. The Emojiording is more fun.\n\nEmojis range from 😃 to 💩.\n⭐️ indicates elite status.";
+"SEARCH_PLACEHOLDER" = "Search for a restaurant";
+"SEARCH_NO_RESULTS" = "No results for '%@'.";
+"SEARCH_ERROR" = "An error occurred.";

@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7267DBB31B85492F0005C666 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7267DBB21B85492F0005C666 /* RestaurantTableViewCell.swift */; };
+		72D0E45A1B85372100B8A287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D0E4591B85372100B8A287 /* Assets.xcassets */; };
+		72D0E45D1B85372100B8A287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D0E45B1B85372100B8A287 /* LaunchScreen.storyboard */; };
+		72D0E46D1B85383000B8A287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0E4681B85383000B8A287 /* AppDelegate.swift */; };
+		72D0E46E1B85383000B8A287 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0E4691B85383000B8A287 /* SearchViewController.swift */; };
+		72D0E4701B85386C00B8A287 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0E46F1B85386C00B8A287 /* SearchView.swift */; };
+		72D0E4721B853B1E00B8A287 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0E4711B853B1E00B8A287 /* UIColor.swift */; };
+		72D0E4761B853BE200B8A287 /* Robolayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D0E4741B853BD900B8A287 /* Robolayout.framework */; };
+		72D0E4771B853BE200B8A287 /* Robolayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72D0E4741B853BD900B8A287 /* Robolayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72D0E47C1B853D8100B8A287 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72D0E47B1B853D8100B8A287 /* Localizable.strings */; };
+		72D0E4801B853DC000B8A287 /* TopLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0E47F1B853DC000B8A287 /* TopLevel.swift */; };
+		72D0E4841B8540AE00B8A287 /* RestaurantsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0E4831B8540AE00B8A287 /* RestaurantsLoader.swift */; };
+		72D0E4861B8546EE00B8A287 /* SearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0E4851B8546EE00B8A287 /* SearchDataSource.swift */; };
+		72D0E48B1B8547A300B8A287 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D0E48A1B8547A300B8A287 /* TableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72D0E4781B853BE200B8A287 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				72D0E4771B853BE200B8A287 /* Robolayout.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7267DBB21B85492F0005C666 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		72D0E44F1B85372100B8A287 /* FindEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D0E4591B85372100B8A287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72D0E45C1B85372100B8A287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72D0E45E1B85372100B8A287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D0E4681B85383000B8A287 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72D0E4691B85383000B8A287 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		72D0E46F1B85386C00B8A287 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		72D0E4711B853B1E00B8A287 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		72D0E4741B853BD900B8A287 /* Robolayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Robolayout.framework; path = Carthage/Build/iOS/Robolayout.framework; sourceTree = SOURCE_ROOT; };
+		72D0E47B1B853D8100B8A287 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		72D0E47F1B853DC000B8A287 /* TopLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopLevel.swift; sourceTree = "<group>"; };
+		72D0E4831B8540AE00B8A287 /* RestaurantsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsLoader.swift; sourceTree = "<group>"; };
+		72D0E4851B8546EE00B8A287 /* SearchDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDataSource.swift; sourceTree = "<group>"; };
+		72D0E48A1B8547A300B8A287 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D0E44C1B85372100B8A287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D0E4761B853BE200B8A287 /* Robolayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72D0E4461B85372100B8A287 = {
+			isa = PBXGroup;
+			children = (
+				72D0E4511B85372100B8A287 /* FindEmoji */,
+				72D0E4501B85372100B8A287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72D0E4501B85372100B8A287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E44F1B85372100B8A287 /* FindEmoji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D0E4511B85372100B8A287 /* FindEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E4591B85372100B8A287 /* Assets.xcassets */,
+				72D0E4641B8537EA00B8A287 /* User interface */,
+				72D0E4661B85383000B8A287 /* Source */,
+				72D0E4731B853BCA00B8A287 /* Frameworks */,
+				72D0E4651B85381500B8A287 /* Supporting files */,
+			);
+			path = FindEmoji;
+			sourceTree = "<group>";
+		};
+		72D0E4641B8537EA00B8A287 /* User interface */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E45B1B85372100B8A287 /* LaunchScreen.storyboard */,
+			);
+			name = "User interface";
+			sourceTree = "<group>";
+		};
+		72D0E4651B85381500B8A287 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E45E1B85372100B8A287 /* Info.plist */,
+				72D0E47B1B853D8100B8A287 /* Localizable.strings */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		72D0E4661B85383000B8A287 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E46B1B85383000B8A287 /* Utilities */,
+				72D0E4671B85383000B8A287 /* Controllers */,
+				72D0E46C1B85383000B8A287 /* Views */,
+				72D0E46A1B85383000B8A287 /* Library */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		72D0E4671B85383000B8A287 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E4681B85383000B8A287 /* AppDelegate.swift */,
+				72D0E4691B85383000B8A287 /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72D0E46A1B85383000B8A287 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E4831B8540AE00B8A287 /* RestaurantsLoader.swift */,
+				72D0E4851B8546EE00B8A287 /* SearchDataSource.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		72D0E46B1B85383000B8A287 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E4711B853B1E00B8A287 /* UIColor.swift */,
+				72D0E47F1B853DC000B8A287 /* TopLevel.swift */,
+				72D0E48A1B8547A300B8A287 /* TableView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		72D0E46C1B85383000B8A287 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E46F1B85386C00B8A287 /* SearchView.swift */,
+				7267DBB21B85492F0005C666 /* RestaurantTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72D0E4731B853BCA00B8A287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D0E4741B853BD900B8A287 /* Robolayout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72D0E44E1B85372100B8A287 /* FindEmoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D0E4611B85372100B8A287 /* Build configuration list for PBXNativeTarget "FindEmoji" */;
+			buildPhases = (
+				72D0E44B1B85372100B8A287 /* Sources */,
+				72D0E44C1B85372100B8A287 /* Frameworks */,
+				72D0E44D1B85372100B8A287 /* Resources */,
+				72D0E4781B853BE200B8A287 /* Embed Frameworks */,
+				72D0E47A1B853BFC00B8A287 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindEmoji;
+			productName = FindEmoji;
+			productReference = 72D0E44F1B85372100B8A287 /* FindEmoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D0E4471B85372100B8A287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SimonBS;
+				TargetAttributes = {
+					72D0E44E1B85372100B8A287 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 72D0E44A1B85372100B8A287 /* Build configuration list for PBXProject "FindEmoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72D0E4461B85372100B8A287;
+			productRefGroup = 72D0E4501B85372100B8A287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D0E44E1B85372100B8A287 /* FindEmoji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D0E44D1B85372100B8A287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D0E45D1B85372100B8A287 /* LaunchScreen.storyboard in Resources */,
+				72D0E47C1B853D8100B8A287 /* Localizable.strings in Resources */,
+				72D0E45A1B85372100B8A287 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72D0E47A1B853BFC00B8A287 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Robolayout.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D0E44B1B85372100B8A287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D0E46E1B85383000B8A287 /* SearchViewController.swift in Sources */,
+				72D0E4841B8540AE00B8A287 /* RestaurantsLoader.swift in Sources */,
+				72D0E4721B853B1E00B8A287 /* UIColor.swift in Sources */,
+				72D0E4801B853DC000B8A287 /* TopLevel.swift in Sources */,
+				72D0E4701B85386C00B8A287 /* SearchView.swift in Sources */,
+				72D0E46D1B85383000B8A287 /* AppDelegate.swift in Sources */,
+				72D0E4861B8546EE00B8A287 /* SearchDataSource.swift in Sources */,
+				7267DBB31B85492F0005C666 /* RestaurantTableViewCell.swift in Sources */,
+				72D0E48B1B8547A300B8A287 /* TableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72D0E45B1B85372100B8A287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D0E45C1B85372100B8A287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72D0E45F1B85372100B8A287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72D0E4601B85372100B8A287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72D0E4621B85372100B8A287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = FindEmoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.FindEmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72D0E4631B85372100B8A287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = FindEmoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.FindEmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D0E44A1B85372100B8A287 /* Build configuration list for PBXProject "FindEmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D0E45F1B85372100B8A287 /* Debug */,
+				72D0E4601B85372100B8A287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D0E4611B85372100B8A287 /* Build configuration list for PBXNativeTarget "FindEmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D0E4621B85372100B8A287 /* Debug */,
+				72D0E4631B85372100B8A287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72D0E4471B85372100B8A287 /* Project object */;
+}
