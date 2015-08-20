@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SearchViewController: UIViewController, UITableViewDelegate {
+class SearchViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate {
 
     var searchView: SearchView {
         return view as! SearchView
@@ -32,6 +32,8 @@ class SearchViewController: UIViewController, UITableViewDelegate {
         searchView.tableView.delegate = self
         
         presentWelcome()
+        
+        searchView.textField.delegate = self
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "textChanged", name: UITextFieldTextDidChangeNotification, object: searchView.textField)
     }
