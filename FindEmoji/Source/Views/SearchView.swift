@@ -36,6 +36,7 @@ class SearchView: UIView {
         textField.tintColor = .findEmojiPrimaryColor()
         textField.returnKeyType = .Done
         textField.autocapitalizationType = .None
+        textField.autocorrectionType = .No
 
         tableView.separatorStyle = .None
         tableView.backgroundColor = .clearColor()
